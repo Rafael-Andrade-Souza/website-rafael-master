@@ -1,5 +1,3 @@
-import { SkillBar } from "react-skillbars";
-
 const skills = [
     {
     type: 'Back-End', 

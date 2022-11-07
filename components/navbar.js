@@ -4,7 +4,6 @@ import {
     Container,
     Box,
     Link,
-    Stack,
     Heading,
     Flex,
     Menu,
@@ -18,27 +17,8 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import DarkButton from './theme-toggle-button'
 
 
-const LinkItem = ({ href, path, children, target, ...props }) => {
-    const active = path === href
-    const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
-    return (
-        <NextLink href={href} passHref scroll={false}>
-            <Link
-            p={2}
-            bg={active ? 'glassTeal' : undefined} 
-            color={active ? '#adff2f' : inactiveColor}
-            target={target}
-            {...props}
-            > 
-            {children}
-            </Link>
-        </NextLink>
-    )
-}
-
 const Navbar = props => {
-    const { path } = props
-  
+    
     return (
       <Box
         position="sticky"
