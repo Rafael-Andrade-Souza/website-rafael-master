@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { chakra, shouldForwardProp } from "@chakra-ui/react";
 
 const Paragraph = styled.p`
     text-align: justify;

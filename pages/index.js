@@ -1,6 +1,6 @@
 import NextLink from 'next/link'
 import { SkillBar } from 'react-skillbars'
-import { Container, Box, Heading, useColorModeValue, Button, Link, Image} from '@chakra-ui/react'
+import { Container, Box, Heading, Button, Link, Image} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'

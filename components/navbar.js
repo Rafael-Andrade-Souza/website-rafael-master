@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import DarkButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+
 
 const LinkItem = ({ href, path, children, target, ...props }) => {
     const active = path === href
