@@ -1,0 +1,39 @@
+{
+  "name": "website-rafael",
+  "version": "1.0.0",
+  "description": "Portfolio Rafael Andrade",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write.",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Rafael Andrade<hi@website.rafael>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.7",
+    "@chakra-ui/theme-tools": "^2.0.12",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.4",
+    "jquery": "^3.6.1",
+    "jQuery": "^1.7.4",
+    "next": "12.2.5",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-skillbars": "^2.1.0",
+    "tagcloud": "^1.1.0-1",
+    "TagCloud": "^2.2.0",
+    "three": "^0.146.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-next": "^13.0.1",
+    "prettier": "^2.7.1"
+  }
+}
