@@ -5,6 +5,7 @@ const FootprintIcon = props => {
     height="40"
     viewBox="0 0 24 24"
     fill="currentColor"
+    {...props}
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
