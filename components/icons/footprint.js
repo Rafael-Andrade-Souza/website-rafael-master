@@ -1,4 +1,3 @@
-import { useColorMode, useColorModeValue } from "@chakra-ui/react"
 const FootprintIcon = props => {
   return (
     <svg
