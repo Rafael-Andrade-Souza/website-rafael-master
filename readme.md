@@ -1,6 +1,6 @@
-# API CRUD Node.js + Express + MongoDB - Controle Clientes 
+# Template Portfolio Rafael
 
-A intenção foi desenvolver aplicação CRUD que permita servir como base para futuras implementações!
+Essa aplicação tem o objetivo de desenvolver meus conhecimentos em front-end
 
 ## ⚙️ Recursos Utilizados 
 
@@ -9,8 +9,4 @@ A intenção foi desenvolver aplicação CRUD que permita servir como base para 
 * **[Chakra-ui](https://chakra-ui.com/)**
 * **[Framer-motion](https://www.framer.com/motion/)**
 
-## 💻 ChangeLog
-
-
-
-
+## 
