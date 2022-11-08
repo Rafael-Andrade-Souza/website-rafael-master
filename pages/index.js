@@ -86,7 +86,7 @@ Começei a estudar desenvolvimento de sistemas através de cursos via CodeAcadem
         <BiographSection>
             <BiographYear>2020</BiographYear>
         Nascimento do {' '}
-        <Link href="https://www.instagram.com/fomeemcasa/">Fôme</Link> (minha hamburgueria delivery).
+        <Link href="https://www.instagram.com/fomeemcasa/">Fôme</Link> (minha hamburgueria).
         </BiographSection>
         <BiographSection>
             <BiographYear>2021</BiographYear>
