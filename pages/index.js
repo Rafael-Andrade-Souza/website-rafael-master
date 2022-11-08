@@ -57,7 +57,7 @@ const Page = () => {
         <Paragraph>Sou Rafael Andrade, graduado em Economia pela FAE Curitiba (2019) e estudioso de lógica e integração de sistemas, busco uma oportunidade como desenvolvedor back-end. 
 Começei a estudar desenvolvimento de sistemas através de cursos via CodeAcademy, Udemy e self-learning e a me interessar cada vez mais pelo assunto. Esta minha aptidão na área e desejo de atuar como desenvolvedor me motivaram a buscar uma mudança de carreira. Estou sempre a par das tecnologias mais inovadoras do setor e busco desenvolver soluções ágeis, eficientes e de fácil implementação.</Paragraph>
     <Box align ="center" my={4}>
-        <NextLink href="works">
+        <NextLink href="https://github.com/Rafael-Andrade-Souza?tab=repositories">
             <Button rightIcon={<ChevronRightIcon />} fill="currentcolor">
                 Portfólio
             </Button>
@@ -86,7 +86,7 @@ Começei a estudar desenvolvimento de sistemas através de cursos via CodeAcadem
         <BiographSection>
             <BiographYear>2020</BiographYear>
         Nascimento do {' '}
-        <Link href="https://www.instagram.com/fomeemcasa/">Fôme</Link>.
+        <Link href="https://www.instagram.com/fomeemcasa/">Fôme</Link> (minha hamburgueria delivery).
         </BiographSection>
         <BiographSection>
             <BiographYear>2021</BiographYear>

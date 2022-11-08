@@ -53,10 +53,10 @@ const Navbar = props => {
                 aria-label="Options"
                 /> 
             <MenuList> 
-                <NextLink href="/source" passHref>
+                <NextLink href="https://github.com/Rafael-Andrade-Souza/website-rafael-master" passHref>
                     <MenuItem as={Link}>Código Fonte</MenuItem>
                 </NextLink>
-                <NextLink href="/Trabalhos" passHref>
+                <NextLink href="https://github.com/Rafael-Andrade-Souza?tab=repositories" passHref>
                     <MenuItem as={Link}>Portfólio</MenuItem>
                 </NextLink>
                 
