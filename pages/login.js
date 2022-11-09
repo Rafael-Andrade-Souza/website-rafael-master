@@ -1,27 +1,45 @@
-import link from 'next/link'
-import { Container, Box, Heading, Button, Link, Image, Flex, FormControl, FormLabel, Input, Stack, Checkbox} from '@chakra-ui/react'
+
+import { Container, Box, Heading, Button, Link, FormControl, FormLabel, Input, Stack, Checkbox} from '@chakra-ui/react'
 import React from 'react'
-import Head from 'next/head'
+import Layout from '../components/layouts/postLayout'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
-const app =() => {
+const loginPage = () => {
     return(
+        <Layout>
         <Container>
-        <header />
-        <loginArea />
+        <Heading as="h2" variant="page-title">
+        User Login
+        </Heading>
+        <Box>
+        <form>
+            <FormControl>
+                <FormLabel>E-Mail</FormLabel>
+                <Input type='email' placeholder='E-mail Here' />
+            </FormControl>
+            <FormControl>
+                <FormLabel>Password</FormLabel>
+                <Input type ='password' placeholder='Password Here' />
+            </FormControl>
+                
+                <Button rightIcon={<ChevronRightIcon />} fill="currentcolor">
+                Login
+
+            </Button>
+            <Stack>
+                <Box>
+                    <Link href='/register'>Register Here </Link>
+                </Box>
+            </Stack>
+        </form>
+        </Box>
         </Container>
+        </Layout>
     )
 }
-const header = () => {
-    return(
-        <Container>
-            <Box>
-                <h1> Sign in to your account</h1> 
-            </Box>
-        </Container>
-    )
-}
 
-const loginArea = () => {
+
+const logForm = () => {
     return (
     <Box>
         <form>
@@ -34,12 +52,12 @@ const loginArea = () => {
                 <Input type ='password' placeholder='Password Here' />
             </FormControl>
 
-            <Stack isInline>
+            <Stack>
                 <Box>
                     <Checkbox>Remember Me</Checkbox>
                 </Box>
                 <Box>
-                    <link> Forgot you Password </link>
+                    <Link> Forgot you Password </Link>
                 </Box>
             </Stack>
         </form>
@@ -47,4 +65,4 @@ const loginArea = () => {
     )
 }
 
-export default app
+export default loginPage
