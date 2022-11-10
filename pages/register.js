@@ -12,12 +12,11 @@ const registerPage = () => {
         <Heading as="h2" variant="page-title">
         Registration
         </Heading>
-        <Section>
         <Box>
         <form>
             <FormControl>
                 <FormLabel>Name</FormLabel>
-                <input type='string' placeholder='Your Name Here'/>
+                <Input type='text' placeholder='Your Name Here'/>
             </FormControl>
             <FormControl>
                 <FormLabel>E-Mail</FormLabel>
@@ -39,7 +38,6 @@ const registerPage = () => {
             </Stack>
         </form>
         </Box>
-        </Section>
         </Container>
         </Layout>
     )
